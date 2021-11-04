@@ -14,20 +14,30 @@
     <h1>Student list</h1>
 
     <ul class="student-list" id="studentlist">
-       <!-- <li class="listiterm">
-
-
-        <div class="personal-info">
-      <h2>Ndayambaje Gaetan</h2>
-      <p>gaetandeo@gmail.com</p>
-      <p>0782989299</p>
-       </div>
-       <div class="actions">
-        <button >Remove Student</button>
-       </div> 
-       </li>  -->
-
+      <div class="top-container">
+        <button id="btn-add-student">Add student</button>
+      </div>
+      
     </ul>
+    <!-- hidden -->
+    <div class="form-container hideorshow " id="form-container">
+      <form action=""class="form" id="form-data">
+        <div class="top-form"><h2>Add student</h2>
+          <button id="btnclose">x</button>
+        </div>
+      
+        <input type="text" class="txts" placeholder="Enter Student Name"id="name"/>
+        <input type="email" class="txts" placeholder="Enter Student Email"id="email"/>
+        <input type="number" class="txts" placeholder="Enter Student Phone"id="phone"/>
+        <input type="address" class="txts" placeholder="Enter Address"id="address">
+         <input type="number" class="txts" placeholder="Enter Id"id="id">
+        <div class="btn-container">
+          <button class="btn" id="submitdata"> Submit Data </button>
+
+        </div>
+      </form>
+    </div>
+    
   </div>
 </body>
 <script src="javascriput/main.js"></script>
