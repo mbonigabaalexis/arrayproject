@@ -9,7 +9,7 @@
     height: 100vh;
 }
 h1{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin: 2rem 0 2rem 0;
     color: rgb(1,80,69);
 }
@@ -17,8 +17,9 @@ h1{
     list-style: none;
     border: 1px solid rgb(1,80,69);
     padding: 1rem;
-    width: 45%;
+    width: 60%;
     border-radius: 10px;
+    background-color: rgba(1,80,69,0.2);
 
 }
 .listitem{
@@ -29,18 +30,19 @@ h1{
 
 }
 .actions button{
-    background-color: #fff;
+    background-color:#fff;
     border-radius: 5px;
     width: 150px;
     border: 0;
     padding:  1rem 1rem;
-    color:rgb(1,80,69);
-    box-shadow:0 0 2px 2px rgba(1,80,69,0.2) ;
+    color:rgb(1,133,13);
+    box-shadow:0 0 3px 3px rgba(1,80,69,0.2) ;
+    margin-right: 1rem;
    
 }
 .actions button:hover{
-    background-color: rgb(245,245,245);
-    color: rgb(1,59,52);
+    background-color: rgb(1, 133, 133);
+    color: rgb(245,245,245);
 }
 
 /* // style css  form */

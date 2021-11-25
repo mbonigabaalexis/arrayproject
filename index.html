@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>student list</title>
+  <title>NYK Cordinng</title>
 </head>
 
 <body>
   <div class="main">
-    <h1>Student list</h1>
+    <h1>Student list Data in NYK Cording School</h1>
 
     <ul class="student-list" id="studentlist">
       <div class="top-container">
@@ -19,10 +19,12 @@
       </div>
       
     </ul>
-    <!-- hidden -->
+    <!-- hidden  -->
+    <!-- Add student -->
+
     <div class="form-container hideorshow " id="form-container">
       <form action=""class="form" id="form-data">
-        <div class="top-form"><h2>Add student</h2>
+        <div class="top-form"><h2>Add student Data Here</h2>
           <button id="btnclose">x</button>
         </div>
       
@@ -30,13 +32,30 @@
         <input type="email" class="txts" placeholder="Enter Student Email"id="email"/>
         <input type="number" class="txts" placeholder="Enter Student Phone"id="phone"/>
         <input type="address" class="txts" placeholder="Enter Address"id="address">
-         <input type="number" class="txts" placeholder="Enter Id"id="id">
         <div class="btn-container">
-          <button class="btn" id="submitdata"> Submit Data </button>
+          <button class="btn" id="submitadd"> Save Data </button>
 
         </div>
       </form>
     </div>
+    <!-- up date form -->
+    <div class="form-container hideorshow " id="form-containerupdate">
+      <form action=""class="form" id="form-data">
+        <div class="top-form"><h2>Update Student Data Here:</h2>
+          <button id="btnclose">x</button>
+        </div>
+        <input type="text" class="txts" placeholder="Enter Student Id"id="idupdate"required/>
+        <input type="text" class="txts" placeholder="Enter Student Name"id="nameupdate"required/>
+        <input type="email" class="txts" placeholder="Enter Student Email"id="emailupdate"required/>
+        <input type="number" class="txts" placeholder="Enter Student Phone"id="phoneupdate"required/>
+        <input type="address" class="txts" placeholder="Enter Address"id="addressupdate"required>
+        <div class="btn-container">
+          <button class="btn" id="submitupdate"> Update Data </button>
+
+        </div>
+      </form>
+    </div>
+
     
   </div>
 </body>
