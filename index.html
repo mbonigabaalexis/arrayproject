@@ -2,20 +2,22 @@
 <html lang="en">
 
 <head>
+  <link rel="shortcut icon"type="image/svg"href="icon/restroom-solid.svg"class="img-responsive" alt="">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <title>NYK Cordinng</title>
 </head>
 
 <body>
   <div class="main">
-    <h1>Student list Data in NYK Cording School</h1>
+    <h1><i class="fas fa-users"></i>  Student list Data in NYK Cording School</h1>
 
     <ul class="student-list" id="studentlist">
       <div class="top-container">
-        <button id="btn-add-student">Add student</button>
+        <button id="btn-add-student"><i class="fas fa-user-plus"></i> Add student</button>
       </div>
       
     </ul>
@@ -24,8 +26,8 @@
 
     <div class="form-container hideorshow " id="form-container">
       <form action=""class="form" id="form-data">
-        <div class="top-form"><h2>Add student Data Here</h2>
-          <button id="btnclose">x</button>
+        <div class="top-form"><h2><i class="fas fa-users"></i>  Add student Data Here</h2>
+          <button id="btnclose"><i class="fas fa-times-circle"></i></button>
         </div>
       
         <input type="text" class="txts" placeholder="Enter Student Name"id="name"/>
@@ -33,7 +35,7 @@
         <input type="number" class="txts" placeholder="Enter Student Phone"id="phone"/>
         <input type="address" class="txts" placeholder="Enter Address"id="address">
         <div class="btn-container">
-          <button class="btn" id="submitadd"> Save Data </button>
+          <button class="btn" id="submitadd"><i class="fas fa-save"></i> Save Data </button>
 
         </div>
       </form>
@@ -41,8 +43,8 @@
     <!-- up date form -->
     <div class="form-container hideorshow " id="form-containerupdate">
       <form action=""class="form" id="form-data">
-        <div class="top-form"><h2>Update Student Data Here:</h2>
-          <button id="btnclose">x</button>
+        <div class="top-form"><h2><i class="fas fa-users"></i>Update Student Data Here:</h2>
+          <button id="btnclose"><i class="fas fa-times-circle"></i></button>
         </div>
         <input type="text" class="txts" placeholder="Enter Student Id"id="idupdate"required/>
         <input type="text" class="txts" placeholder="Enter Student Name"id="nameupdate"required/>
@@ -50,7 +52,7 @@
         <input type="number" class="txts" placeholder="Enter Student Phone"id="phoneupdate"required/>
         <input type="address" class="txts" placeholder="Enter Address"id="addressupdate"required>
         <div class="btn-container">
-          <button class="btn" id="submitupdate"> Update Data </button>
+          <button class="btn" id="submitupdate"><i class="fas fa-edit"></i> Update Data </button>
 
         </div>
       </form>

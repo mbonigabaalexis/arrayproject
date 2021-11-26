@@ -56,8 +56,9 @@ for (let i = 0; i < students.length; i++) {
 
        // <button> remove student
        // set data to tag calling in html page
-       updateStudent.innerHTML = "Update Student";
-       removeStudent.innerHTML = "Remove Student";
+       updateStudent.innerHTML = "<i class=\"fas fa-user-edit\"><i>Update Student";
+       removeStudent.innerHTML = "<i class=\"fas fa-user-times\"></i>Remove Student";
+       
        studentId.innerHTML=students[i].id;
        studentName.innerHTML = students[i].name;
        studentEmail.innerHTML = students[i].email;
